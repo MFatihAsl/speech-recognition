@@ -7,7 +7,7 @@ import whisper
 model = whisper.load_model("medium")
 
 # Ses dosyasının tam yolunu belirtin
-audio_path = "C:/Users/Muhammed Fatih/Desktop/nlp.mp3"
+audio_path = "C:/Users/Muhammed Fatih/Desktop/audio.mp3"
 
 # Ses kaydını yazıya çeviriyoruz
 result = model.transcribe(audio_path)
