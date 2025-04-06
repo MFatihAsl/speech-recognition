@@ -40,7 +40,7 @@ model = whisper.load_model("small")
 2. `audio_path` değişkenini kendi ses dosyanızın tam yolu ile değiştirin:
    
    ```python
-   audio_path = "C:/Users/Muhammed Fatih/Desktop/nlp.mp3"
+   audio_path = "C:/Users/Muhammed Fatih/Desktop/audio.mp3"
    ```
 
 3. Python dosyasını çalıştırın:
